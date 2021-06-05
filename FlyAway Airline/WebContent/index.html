@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+ 
+}
+
+.navbar a {
+ float:left;
+ display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover {
+  background-color: #000;
+   border-bottom: 3px solid #00e6e6 ;
+}
+
+.active {
+  background-color: #00e6e6;
+  color: black;
+}
+ img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+
+  background-color: none;
+  border: thick;
+  color:#00e6e6;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button1 {
+  align-items:center;
+    background-color:#66b3ff; 
+    color: black; 
+    border: 2px solid #66b3ff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:40px;
+   background-color:#66b3ff;
+   color: white;
+   text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+  
+ 
+
+
+}
+</style>
+<body>
+
+<div class="navbar">
+  <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="Aboutus.jsp"><i class="fa fa-fw fa-info"></i> About us</a> 
+  <a href="contact.jsp"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="Flights.jsp"><i class="fa fa-fw fa-plane"></i> Flights</a>
+</div>
+<div class="info">
+<h1>Fly Away airlines </h1>
+</div>
+<div class="button" align="center">
+<button class="button button1" onclick="document.location='index.jsp'">Log in</button>
+<button class="button button1"  onclick="document.location='Registration.jsp'">Register</button>
+</div>
+<img src="image/01.jpg" alt="Cinque Terre" >
+<br>
+<div class="footer">
+  <p>Developed by Omkar charate</p>
+</div>
+
+</body>
+</html> 
